@@ -451,7 +451,7 @@ Terrain:
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_SplatMapDistance: 1052
   m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
@@ -586,7 +586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e40604a3414dece4aa3696e8d309b20a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e40604a3414dece4aa3696e8d309b20a, type: 3}
       propertyPath: m_LocalPosition.z

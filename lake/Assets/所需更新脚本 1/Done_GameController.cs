@@ -62,7 +62,7 @@ public class Done_GameController : MonoBehaviour
 			for (int i = 0; i < hazardCount; i++)
 			{
 				GameObject hazard = hazards [Random.Range (0, hazards.Length)];
-				Vector3 spawnPosition = new Vector3 (Random.Range (0, 30), spawnValues.y, Random.Range (0, 30));
+				Vector3 spawnPosition = new Vector3 (Random.Range (25, 55), spawnValues.y, Random.Range (60, 90));
 				Quaternion spawnRotation = Quaternion.identity;
 				Instantiate (hazard, spawnPosition, spawnRotation);
 				yield return new WaitForSeconds (spawnWait);
